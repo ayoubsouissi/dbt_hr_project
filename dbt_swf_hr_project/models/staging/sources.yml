@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: hr
+    description: NA 
+    database: HR_EPM 
+    schema: raw
+    tables:
+      - name: hr_actuals
+        description: NA
+      - name: hr_to_predict
+        description: NA

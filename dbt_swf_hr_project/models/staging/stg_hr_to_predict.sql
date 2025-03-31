@@ -1,0 +1,1 @@
+select * from {{source('hr','hr_to_predict')}}

@@ -1,0 +1,44 @@
+[0m17:22:58.283525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224379BD450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224396FD7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224396FD600>]}
+
+
+============================== 17:22:58.298983 | 500bb1e9-41bd-4cf8-90b6-d145f3f99f17 ==============================
+[0m17:22:58.298983 [info ] [MainThread]: Running with dbt=1.9.3
+[0m17:22:58.303022 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AyoubSOUISSI\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:23:30.341855 [debug] [MainThread]: Starter project path: C:\Users\AyoubSOUISSI\OneDrive - Meltone Advisory\Documents\Missions\DataWeave\Prototypes\HR EPM App\dbt_hr_env\.venv\lib\site-packages\dbt\include\starter_project
+[0m17:23:30.416177 [info ] [MainThread]: 
+Your new dbt project "dbt_swf_hr_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:23:30.418179 [info ] [MainThread]: Setting up your profile.
+[0m17:29:30.850602 [info ] [MainThread]: Profile dbt_swf_hr_project written to C:\Users\AyoubSOUISSI\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:29:30.863022 [debug] [MainThread]: Command `dbt init` succeeded at 17:29:30.863022 after 393.88 seconds
+[0m17:29:30.870483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224379BD450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224396FD5A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224396FDDB0>]}
+[0m17:29:30.872535 [debug] [MainThread]: Flushing usage events
+[0m17:29:31.294776 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:33:03.062947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BB5ABD480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BB6809900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BB6809720>]}
+
+
+============================== 09:33:03.086976 | dcc51b45-bf1e-4c21-b419-5e3e58f30c36 ==============================
+[0m09:33:03.086976 [info ] [MainThread]: Running with dbt=1.9.3
+[0m09:33:03.090728 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\AyoubSOUISSI\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:33:03.093254 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\AyoubSOUISSI\OneDrive - Meltone Advisory\Documents\Missions\DataWeave\Prototypes\HR EPM App\dbt_hr_env\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:33:03.098418 [debug] [MainThread]: Command `dbt run` failed at 09:33:03.098418 after 0.98 seconds
+[0m09:33:03.100493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BB5ABD480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BB68099F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BB68099C0>]}
+[0m09:33:03.104661 [debug] [MainThread]: Flushing usage events
+[0m09:33:03.542845 [debug] [MainThread]: An error was encountered while trying to flush usage events
